@@ -30,4 +30,4 @@ function funkyFunction() {
 function theFunk() {
   return funkyFunction();
 }
-theFunk();
+theFunk() = funkyFunction()();
